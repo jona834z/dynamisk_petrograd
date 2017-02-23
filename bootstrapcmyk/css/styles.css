@@ -1,0 +1,202 @@
+/*!
+ * Custom styles af DIG
+ */
+
+
+/*Generelt*/
+
+#html {
+    cursor: pointer;
+}
+body {
+    background-color:beige;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+p {
+    text-align: center;
+    color: #414141;
+    font-size: 30px;
+}
+h4 {
+    font-size: 1.5vw;
+}
+h3{
+    font-size: 2vw;
+}
+h1 {
+    font-size: 5.5vw;
+    text-align: center;
+}
+h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+em {
+    font-size: 4vw;
+}
+
+
+
+
+/*navbar-header*/
+
+
+.navbar {
+    font-size: 2vw;
+
+
+}
+.dropdown-menu {
+    font-size: 3vw;
+}
+#navbarDropdownMenuLink {
+    font-size: 7vw;
+    color: grey;
+    text-decoration-line: none;
+}
+
+.right {
+    padding-top: px;
+    padding-left: 50vw;
+}
+/*parallax*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+.galleri a{
+    font-size: 2vw;
+}
+
+.fotobox {
+    background: url("") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.5;
+}
+.fotokasse {
+    background: url("") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 150px;
+    opacity: 0.5;
+}
+.fotokasse:hover {
+    opacity: 1.0;
+}
+.fotobox:hover {
+    opacity: 1.0;
+}
+.foto1 {
+    background-image: url(../billeder/Foto1.png);
+}
+.foto2 {
+    background-image: url(../billeder/Foto2.png);
+}
+.foto3 {
+    background-image: url(../billeder/Foto3.png);
+}
+.foto4 {
+    background-image: url(../billeder/Foto4.png);
+}
+.foto5 {
+    background-image: url(../billeder/20x40a.png);
+}
+.foto6 {
+    background-image: url(../billeder/20x40b.png);
+}
+.foto7 {
+    background-image: url(../billeder/20x40c.png);
+}
+.foto8 {
+    background-image: url(../billeder/20x40d.png);
+}
+.foto9 {
+    background-image: url(../billeder/30x30d.png);
+}
+.foto10 {
+    background-image: url(../billeder/30x30b.png);
+}
+.foto11 {
+    background-image: url(../billeder/30x30c.png);
+}
+.foto12 {
+    background-image: url(../billeder/30x30a.png);
+}
+.logo {
+    width: auto;
+}
+
+
+
+/*footer*/
+
+#Kontakt {
+    background-color: darkred;
+    color: #bcbcbc;
+}
+
+#Kontakt h4 {
+    margin-top: 3vw;
+
+}
+
+.front img {
+    margin: 2vw 2vw 2vw 1vw;
+}
+
+@media screen and (max-width: 767px) {
+.om {
+    height: 30vw;
+    width: 44.7vw;
+}
+
+.parallax-container {
+    max-height: 100px;
+    background: transparent;
+}
+
+#Kontakt h4 {
+    font-size: 4vw;
+    }
+
+.galleri a {
+    font-size: 4vw
+    }
+
+.galleri1 img {
+    height: 60vw;
+    }
+
+.galleri2 img {
+    height: 80vw;
+    }
+.galleri3 img {
+    height: 60vw;
+    }
+
+
+}
+
+.box {
+    padding-left: 19vw;
+}
+
